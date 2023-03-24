@@ -1,0 +1,41 @@
+.page-accueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.page-accueil-item {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.accueil-element {
+  width: 300px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.accueil-element:hover{
+  background-color: rgb(163, 163, 237);
+}
+.accueil-element p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Icons styling */
+.dpt-informatique-icon{
+  height: 40px;
+  width: 40px;
+}
